@@ -21,8 +21,6 @@ public class Library {
 
         System.out.println("Enter the Author Name");
         this.author = scan.nextLine();
-
-
     }
 
     void compute()

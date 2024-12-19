@@ -18,7 +18,7 @@ class StringFunctions {
 
     public static void main(String[] args)
     {
-        String str = "1Too hot to hoot1.***.   ";
+        /*String str = "1Too hot to hoot1.***.   ";
         StringFunctions s = new StringFunctions();
         if(s.isPalindrome(str))
         {
@@ -27,7 +27,29 @@ class StringFunctions {
         else
         {
             System.out.println("The String is NO polingrome");
-        }
+        }*/
+
+        String s1 = "Ayisha";
+        //s1 = s1.concat(" Siddiqa");
+        System.out.println(s1);
+
+        String s2 = "Ayisha";
+        System.out.println(s2);
+
+        if(s1 == s2)
+            System.out.println("s1 == s2 is true");
+        else
+            System.out.println("s1 == s2 is false");
+
+        if(s1.equals(s2))
+            System.out.println("s1 equals s2 is true");
+        else
+            System.out.println("s1 equals s2 is false");
+
+        StringBuffer sb1 = new StringBuffer("Hello");
+        sb1.append("world");
+
+        System.out.println(sb1);
 
     }
 }
